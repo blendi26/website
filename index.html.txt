@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ilda 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffe0ec 0%, #fff0f5 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(255, 105, 180, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .flower-decoration {
+            font-size: 30px;
+            position: absolute;
+        }
+
+        .flower1 { top: 10px; left: 20px; }
+        .flower2 { top: 10px; right: 20px; }
+        .flower3 { bottom: 10px; left: 40px; }
+        .flower4 { bottom: 10px; right: 40px; }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .photo-section {
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #ffe0ec;
+        }
+
+        .photo-placeholder {
+            width: 250px;
+            height: 250px;
+            background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%);
+            border-radius: 15px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            border: 5px solid #ff69b4;
+            box-shadow: 0 5px 20px rgba(255, 105, 180, 0.3);
+        }
+
+        .photo-text {
+            margin-top: 15px;
+            color: #ff1493;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: #ff1493;
+            font-size: 24px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-content {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 15px;
+            background: #fff5f8;
+            border-radius: 10px;
+            border-left: 4px solid #ff69b4;
+        }
+
+        .hobby-box {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffb6c1 0%, #ffc0cb 100%);
+            padding: 15px 25px;
+            margin: 10px 5px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: #d81b60;
+            box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 18px;
+        }
+
+        .footer-flowers {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .heart {
+            display: inline-block;
+            color: #ff1493;
+            font-size: 20px;
+            margin: 0 5px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+
+            .photo-placeholder {
+                width: 200px;
+                height: 200px;
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="flower-decoration flower1">🌸</div>
+            <div class="flower-decoration flower2">🌹</div>
+            <div class="flower-decoration flower3">🌷</div>
+            <div class="flower-decoration flower4">🌺</div>
+            <h1>About Ilda 💕</h1>
+            <p class="subtitle">Someone truly special</p>
+        </header>
+
+        <div class="photo-section">
+            <div class="photo-placeholder">📸</div>
+            <p class="photo-text">Add your favorite photo here!</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <div class="section-title">
+                    <span>👤</span>
+                    <span>Who is Ilda?</span>
+                </div>
+                <div class="section-content">
+                    Ilda is an amazing person with a heart full of kindness and joy. She brings light and happiness to everyone around her with her wonderful personality and genuine care for others.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">
+                    <span>🎯</span>
+                    <span>Her Favorite Hobbies</span>
+                </div>
+                <div style="text-align: center;">
+                    <div class="hobby-box">📚 Reading</div>
+                    <div class="hobby-box">🏊 Swimming</div>
+                    <div class="hobby-box">💑 Spending Time with BF</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">
+                    <span>📚</span>
+                    <span>About Reading</span>
+                </div>
+                <div class="section-content">
+                    Ilda loves getting lost in the pages of a good book. Whether it's fiction, romance, or adventure, she has a passion for stories that transport her to different worlds and teach her new things.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">
+                    <span>🏊</span>
+                    <span>About Swimming</span>
+                </div>
+                <div class="section-content">
+                    Swimming is one of Ilda's favorite ways to relax and stay active. She loves the feeling of water and the peace that comes with being in the pool. It's her perfect escape and source of joy.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">
+                    <span>💑</span>
+                    <span>Time Together</span>
+                </div>
+                <div class="section-content">
+                    What makes Ilda happiest is spending quality time with her boyfriend. Whether it's simple moments or special occasions, she treasures every memory made together. True love is found in the everyday moments shared.
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-flowers">🌸 🌹 🌷 🌺 🌸</div>
+            <p>Made with <span class="heart">❤️</span> for someone special</p>
+        </div>
+    </div>
+</body>
+</html>
